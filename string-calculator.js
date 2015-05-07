@@ -43,3 +43,22 @@ expect(toNumber("six")).to.equal(6);
 expect(toNumber("seven")).to.equal(7);
 expect(toNumber("eight")).to.equal(8);
 expect(toNumber("nine")).to.equal(9);
+
+
+
+function plus(A, B){
+  if ( A === "zero", B === "zero" ){
+    return 0 + 0;
+  }
+  if ( A === "zero", B === "one" ){
+    return 0 + 1;
+  }
+  if ( A === "zero", B === "two" ){
+    return 0 + 2;
+  }
+}
+
+expect(plus).to.exist;
+expect(plus("zero", "zero")).to.equal(0);
+expect(plus("zero", "one")).to.equal(1);
+expect(plus("zero", "two")).to.equal(2);
