@@ -21,12 +21,10 @@ addTaskToList("Remember the milk", taskList);
 expect(taskList[0]).to.equal("Remember the milk");
 expect(taskList.length).to.equal(1);
 
-//expect what??
 expect(taskList[0]).to.equal("Remember the milk");
 expect(taskList.length).to.equal(1);
 addTaskToList("Take out the trash", taskList);
-//expect what now??
 expect(taskList[1]).to.equal("Take out the trash");
 expect(taskList.length).to.equal(2);
 
-console.log("Show both:", taskList[0], ",", taskList[1]);
+console.log(taskList)
