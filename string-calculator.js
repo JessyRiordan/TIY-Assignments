@@ -23,3 +23,4 @@ expect(toNumber("one")).to.equal(1);
 expect(toNumber("two")).to.equal(2);
 expect(toNumber("three")).to.equal(3);
 expect(toNumber("four")).to.equal(4);
+expect(toNUmber("five")).to.equal(5);
