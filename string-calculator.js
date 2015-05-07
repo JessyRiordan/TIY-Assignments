@@ -19,3 +19,4 @@ expect(toNumber("zero")).to.equal(0);
 expect(toNumber("one")).to.equal(1);
 expect(toNumber("two")).to.equal(2);
 expect(toNumber("three")).to.equal(3);
+expect(toNumber("four")).to.equal(4);
