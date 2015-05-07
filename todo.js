@@ -21,10 +21,14 @@ addTaskToList("Remember the milk", taskList);
 expect(taskList[0]).to.equal("Remember the milk");
 expect(taskList.length).to.equal(1);
 
-expect(taskList[0]).to.equal("Remember the milk");
 expect(taskList.length).to.equal(1);
 addTaskToList("Take out the trash", taskList);
 expect(taskList[1]).to.equal("Take out the trash");
 expect(taskList.length).to.equal(2);
+
+expect(taskList.length).to.equal(2);
+addTaskToList("Clean up cat litter", taskList);
+expect(taskList[2]).to.equal("Clean up cat litter");
+expect(taskList.length).to.equal(3);
 
 console.log(taskList)
