@@ -32,3 +32,12 @@ expect(taskList[2]).to.equal("Clean up cat litter");
 expect(taskList.length).to.equal(3);
 
 console.log(taskList)
+
+function deleteTaskFromList (task, list){
+  return list.pop(task)
+}
+
+expect.(taskList.length).to.equal(3);
+deleteTaskFromList("Remember the milk", taskList);
+
+console.log(taskList)
