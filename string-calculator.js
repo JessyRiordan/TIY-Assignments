@@ -13,6 +13,9 @@ function toNumber(word){
   if ( word === "three" ){
     return 3;
   }
+  if ( word === "four" ){
+    return 4;
+  }
 }
 
 expect(toNumber("zero")).to.equal(0);
