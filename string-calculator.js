@@ -124,6 +124,66 @@ function add(A, B){
   if (A === "two" && B === "nine"){
     return 11;
   }
+  if (A === "three" && B === "zero"){
+    return 3;
+  }
+  if (A === "three" && B === "one"){
+    return 4;
+  }
+  if (A === "three" && B === "two"){
+    return 5;
+  }
+  if (A === "three" && B === "three"){
+    return 6;
+  }
+  if (A === "three" && B === "four"){
+    return 7;
+  }
+  if (A === "three" && B === "five"){
+    return 8;
+  }
+  if (A === "three" && B === "six"){
+    return 9;
+  }
+  if (A === "three" && B === "seven"){
+    return 10;
+  }
+  if (A === "three" && B === "eight"){
+    return 11;
+  }
+  if (A === "three" && B === "nine"){
+    return 12;
+  }
+  if (A === "four" && B === "zero"){
+    return 4;
+  }
+  if (A === "four" && B === "one"){
+    return 5;
+  }
+  if (A === "four" && B === "two"){
+    return 6;
+  }
+  if (A === "four" && B === "three"){
+    return 7;
+  }
+  if (A === "four" && B === "four"){
+    return 8;
+  }
+  if (A === "four" && B === "five"){
+    return 9;
+  }
+  if (A === "four" && B === "six"){
+    return 10;
+  }
+  if (A === "four" && B === "seven"){
+    return 11;
+  }
+  if (A === "four" && B === "eight"){
+    return 12;
+  }
+  if (A === "four" && B === "nine"){
+    return 13;
+  }
 }
 
 expect(add).to.exist;
