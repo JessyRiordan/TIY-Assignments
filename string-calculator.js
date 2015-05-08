@@ -35,7 +35,7 @@ function toNumber(word){
 
 function add(A, B){
   if (A === "zero" && B === "zero"){
-    return 0
+    return A + B
   }
   if (A === "zero" && B === "one"){
     return 1;
@@ -190,6 +190,8 @@ expect(add).to.exist;
 expect(add("zero", "zero")).to.equal(0);
 
 console.log(add("zero", "zero"))
+
+console.log(1/9)
 
 // NIGHTMARE MODE
 
