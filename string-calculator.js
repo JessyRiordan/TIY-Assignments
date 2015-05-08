@@ -33,7 +33,48 @@ function toNumber(word){
   }
 }
 
-function plus(A, B){
+function add(A, B){
+  if (A === "zero" && B === "zero"){
+    return 0
+  }
+  if (A === "zero" && B === "one"){
+    return 1;
+  }
+  if (A === "zero" && B === "two"){
+    return 2;
+  }
+  if (A === "zero" && B === "three"){
+    return 3;
+  }
+  if (A === "zero" && B === "four"){
+    return 4;
+  }
+  if (A === "zero" && B === "five"){
+    return 5;
+  }
+  if (A === "zero" && B === "six"){
+    return 6;
+  }
+  if (A === "zero" && B === "seven"){
+    return 7;
+  }
+  if (A === "zero" && B === "eight"){
+    return 8;
+  }
+  if (A === "zero" && B === "nine"){
+    return 9;
+  }
+  
+}
+
+expect(add).to.exist;
+expect(add("zero", "zero")).to.equal(0);
+
+console.log(add("zero", "zero"))
+
+// NIGHTMARE MODE
+
+/* function plus(A, B){
   return (toNumber(A) + toNumber(B));
 }
 
@@ -76,4 +117,4 @@ expect(multiply("five", "three")).to.equal(15);
 console.log(multiply("three", "four"))
 
 expect(divide).to.exist;
-expect(divide("five", "one").to.equal(5)
+expect(divide("five", "one").to.equal(5) */
