@@ -33,6 +33,22 @@ function toNumber(word){
   }
 }
 
+function plus(A, B){
+  return (toNumber(A) + toNumber(B));
+}
+
+function minus(A, B){
+  return (toNumber(A) - toNumber(B));
+}
+
+function multiply(A, B){
+  return (toNumber(A) * toNumber(B));
+}
+
+function divide(A, B){
+  return (toNumber(A) / toNumber(B));
+}
+
 expect(toNumber("zero")).to.equal(0);
 expect(toNumber("one")).to.equal(1);
 expect(toNumber("two")).to.equal(2);
@@ -46,19 +62,18 @@ expect(toNumber("nine")).to.equal(9);
 
 
 
-function plus(A, B){
-  if ( A === "zero", B === "zero" ){
-    return 0 + 0;
-  }
-  if ( A === "zero", B === "one" ){
-    return 0 + 1;
-  }
-  if ( A === "zero", B === "two" ){
-    return 0 + 2;
-  }
-}
-
 expect(plus).to.exist;
 expect(plus("zero", "zero")).to.equal(0);
 expect(plus("zero", "one")).to.equal(1);
 expect(plus("zero", "two")).to.equal(2);
+
+expect(minus).to.exist;
+expect(minus("four", "two")).to.equal(2);
+
+expect(multiply).to.exist;
+expect(multiply("five", "three")).to.equal(15);
+
+console.log(multiply("three", "four"))
+
+expect(divide).to.exist;
+expect(divide("five", "one").to.equal(5)
