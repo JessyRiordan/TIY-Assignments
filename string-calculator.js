@@ -34,6 +34,7 @@ function toNumber(word){
 }
 
 function add(A, B){
+  var 
   if (A === "zero" && B === "zero"){
     return A + B
   }
