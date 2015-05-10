@@ -274,6 +274,7 @@ function add(A, B){
     var A = 5
     var B = 9
   }
+
   return A + B
 }
 
@@ -349,6 +350,10 @@ expect(add("five", "six")).to.equal(11);
 expect(add("five", "seven")).to.equal(12);
 expect(add("five", "eight")).to.equal(13);
 expect(add("five", "nine")).to.equal(14);
+expect(add("six", "zero")).to.equal(6);
+expect(add("six", "one")).to.equal(7);
+expect(add("six", "two")).to.equal(8);
+
 
 console.log(add("five", "seven"))
 
