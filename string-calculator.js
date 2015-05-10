@@ -34,36 +34,35 @@ function toNumber(word){
 }
 
 function add(A, B){
-  var 
   if (A === "zero" && B === "zero"){
-    return A + B
+    return toNumber(A) + toNumber(B);
   }
   if (A === "zero" && B === "one"){
-    return 1;
+    return toNumber(A) + toNumber(B);
   }
   if (A === "zero" && B === "two"){
-    return 2;
+    return toNumber(A) + toNumber(B);
   }
   if (A === "zero" && B === "three"){
-    return 3;
+    return toNumber(A) + toNumber(B);
   }
   if (A === "zero" && B === "four"){
-    return 4;
+    return toNumber(A) + toNumber(B);
   }
   if (A === "zero" && B === "five"){
-    return 5;
+    return toNumber(A) + toNumber(B);
   }
   if (A === "zero" && B === "six"){
-    return 6;
+    return toNumber(A) + toNumber(B);
   }
   if (A === "zero" && B === "seven"){
-    return 7;
+    return toNumber(A) + toNumber(B);
   }
   if (A === "zero" && B === "eight"){
-    return 8;
+    return toNumber(A) + toNumber(B);
   }
   if (A === "zero" && B === "nine"){
-    return 9;
+    return toNumber(A) + toNumber(B);
   }
   if (A === "one" && B === "zero"){
     return 1;
@@ -187,10 +186,30 @@ function add(A, B){
   }
 }
 
+expect(toNumber("zero")).to.equal(0);
+expect(toNumber("one")).to.equal(1);
+expect(toNumber("two")).to.equal(2);
+expect(toNumber("three")).to.equal(3);
+expect(toNumber("four")).to.equal(4);
+expect(toNumber("five")).to.equal(5);
+expect(toNumber("six")).to.equal(6);
+expect(toNumber("seven")).to.equal(7);
+expect(toNumber("eight")).to.equal(8);
+expect(toNumber("nine")).to.equal(9);
+
 expect(add).to.exist;
 expect(add("zero", "zero")).to.equal(0);
+expect(add("zero", "one")).to.equal(1);
+expect(add("zero", "two")).to.equal(2);
+expect(add("zero", "three")).to.equal(3);
+expect(add("zero", "four")).to.equal(4);
+expect(add("zero", "five")).to.equal(5);
+expect(add("zero", "six")).to.equal(6);
+expect(add("zero", "seven")).to.equal(7);
+expect(add("zero", "eight")).to.equal(8);
+expect(add("zero", "nine")).to.equal(9);
 
-console.log(add("zero", "zero"))
+console.log(add("zero", "one"))
 
 console.log(1/9)
 
@@ -212,16 +231,7 @@ function divide(A, B){
   return (toNumber(A) / toNumber(B));
 }
 
-expect(toNumber("zero")).to.equal(0);
-expect(toNumber("one")).to.equal(1);
-expect(toNumber("two")).to.equal(2);
-expect(toNumber("three")).to.equal(3);
-expect(toNumber("four")).to.equal(4);
-expect(toNumber("five")).to.equal(5);
-expect(toNumber("six")).to.equal(6);
-expect(toNumber("seven")).to.equal(7);
-expect(toNumber("eight")).to.equal(8);
-expect(toNumber("nine")).to.equal(9);
+
 
 
 
