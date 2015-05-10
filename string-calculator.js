@@ -35,155 +35,246 @@ function toNumber(word){
 
 function add(A, B){
   if (A === "zero" && B === "zero"){
-    return toNumber(A) + toNumber(B);
+    var A = 0;
+    var B = 0;
   }
   if (A === "zero" && B === "one"){
-    return toNumber(A) + toNumber(B);
+    var A = 0;
+    var B = 1;
   }
   if (A === "zero" && B === "two"){
-    return toNumber(A) + toNumber(B);
+    var A = 0;
+    var B = 2;
   }
   if (A === "zero" && B === "three"){
-    return toNumber(A) + toNumber(B);
+    var A = 0;
+    var B = 3;
   }
   if (A === "zero" && B === "four"){
-    return toNumber(A) + toNumber(B);
+    var A = 0;
+    var B = 4;
   }
   if (A === "zero" && B === "five"){
-    return toNumber(A) + toNumber(B);
+    var A = 0;
+    var B = 5;
   }
   if (A === "zero" && B === "six"){
-    return toNumber(A) + toNumber(B);
+    var A = 0;
+    var B = 6;
   }
   if (A === "zero" && B === "seven"){
-    return toNumber(A) + toNumber(B);
+    var A = 0;
+    var B = 7;
   }
   if (A === "zero" && B === "eight"){
-    return toNumber(A) + toNumber(B);
+    var A = 0;
+    var B = 8;
   }
   if (A === "zero" && B === "nine"){
-    return toNumber(A) + toNumber(B);
+    var A = 0;
+    var B = 9;
   }
   if (A === "one" && B === "zero"){
-    return toNumber(A) + toNumber(B);
+    var A = 1;
+    var B = 0;
   }
   if (A === "one" && B === "one"){
-    return toNumber(A) + toNumber(B);
+    var A = 1;
+    var B = 1;
   }
   if (A === "one" && B === "two"){
-    return toNumber(A) + toNumber(B);
+    var A = 1;
+    var B = 2;
   }
   if (A === "one" && B === "three"){
-    return toNumber(A) + toNumber(B);
+    var A = 1;
+    var B = 3;
   }
   if (A === "one" && B === "four"){
-    return toNumber(A) + toNumber(B);
+    var A = 1;
+    var B = 4;
   }
   if (A === "one" && B === "five"){
-    return toNumber(A) + toNumber(B);
+    var A = 1;
+    var B = 5;
   }
   if (A === "one" && B === "six"){
-    return toNumber(A) + toNumber(B);
+    var A = 1;
+    var B = 6;
   }
   if (A === "one" && B === "seven"){
-    return toNumber(A) + toNumber(B);
+    var A = 1;
+    var B = 7;
   }
   if (A === "one" && B === "eight"){
-    return toNumber(A) + toNumber(B);
+    var A = 1;
+    var B = 8;
   }
   if (A === "one" && B === "nine"){
-    return toNumber(A) + toNumber(B);
+    var A = 1;
+    var B = 9;
   }
   if (A === "two" && B === "zero"){
-    return toNumber(A) + toNumber(B);
+    var A = 2;
+    var B = 0;
   }
   if (A === "two" && B === "one"){
-    return toNumber(A) + toNumber(B);
+    var A = 2;
+    var B = 1;
   }
   if (A === "two" && B === "two"){
-    return toNumber(A) + toNumber(B);
+    var A = 2;
+    var B = 2;
   }
   if (A === "two" && B === "three"){
-    return toNumber(A) + toNumber(B);
+    var A = 2;
+    var B = 3;
   }
   if (A === "two" && B === "four"){
-    return toNumber(A) + toNumber(B);
+    var A = 2;
+    var B = 4;
   }
   if (A === "two" && B === "five"){
-    return toNumber(A) + toNumber(B);
+    var A = 2;
+    var B = 5;
   }
   if (A === "two" && B === "six"){
-    return toNumber(A) + toNumber(B);
+    var A = 2;
+    var B = 6;
   }
   if (A === "two" && B === "seven"){
-    return toNumber(A) + toNumber(B);
+    var A = 2;
+    var B = 7;
   }
   if (A === "two" && B === "eight"){
-    return toNumber(A) + toNumber(B);
+    var A = 2;
+    var B = 8;
   }
   if (A === "two" && B === "nine"){
-    return toNumber(A) + toNumber(B);
+    var A = 2;
+    var B = 9;
   }
   if (A === "three" && B === "zero"){
-    return toNumber(A) + toNumber(B);
+    var A = 3;
+    var B = 0;
   }
   if (A === "three" && B === "one"){
-    return toNumber(A) + toNumber(B);
+    var A = 3;
+    var B = 1;
   }
   if (A === "three" && B === "two"){
-    return toNumber(A) + toNumber(B);
+    var A = 3;
+    var B = 2;
   }
   if (A === "three" && B === "three"){
-    return toNumber(A) + toNumber(B);
+    var A = 3;
+    var B = 3;
   }
   if (A === "three" && B === "four"){
-    return toNumber(A) + toNumber(B);
+    var A = 3;
+    var B = 4;
   }
   if (A === "three" && B === "five"){
-    return toNumber(A) + toNumber(B);
+    var A = 3;
+    var B = 5;
   }
   if (A === "three" && B === "six"){
-    return toNumber(A) + toNumber(B);
+    var A = 3;
+    var B = 6;
   }
   if (A === "three" && B === "seven"){
-    return toNumber(A) + toNumber(B);
+    var A = 3;
+    var B = 7;
   }
   if (A === "three" && B === "eight"){
-    return toNumber(A) + toNumber(B);
+    var A = 3;
+    var B = 8;
   }
   if (A === "three" && B === "nine"){
-    return toNumber(A) + toNumber(B);
+    var A = 3;
+    var B = 9;
   }
   if (A === "four" && B === "zero"){
-    return toNumber(A) + toNumber(B);
+    var A = 4;
+    var B = 0;
   }
   if (A === "four" && B === "one"){
-    return toNumber(A) + toNumber(B);
+    var A = 4;
+    var B = 1;
   }
   if (A === "four" && B === "two"){
-    return toNumber(A) + toNumber(B);
+    var A = 4;
+    var B = 2;
   }
   if (A === "four" && B === "three"){
-    return toNumber(A) + toNumber(B);
+    var A = 4;
+    var B = 3;
   }
   if (A === "four" && B === "four"){
-    return toNumber(A) + toNumber(B);
+    var A = 4;
+    var B = 4;
   }
   if (A === "four" && B === "five"){
-    return toNumber(A) + toNumber(B);
+    var A = 4;
+    var B = 5;
   }
   if (A === "four" && B === "six"){
-    return toNumber(A) + toNumber(B);
+    var A = 4;
+    var B = 6;
   }
   if (A === "four" && B === "seven"){
-    return toNumber(A) + toNumber(B);
+    var A = 4;
+    var B = 7;
   }
   if (A === "four" && B === "eight"){
-    return toNumber(A) + toNumber(B);
+    var A = 4;
+    var B = 8;
   }
   if (A === "four" && B === "nine"){
-    return toNumber(A) + toNumber(B);
+    var A = 4;
+    var B = 9;
   }
+  if (A === "five" && B === "zero"){
+    var A = 5;
+    var B = 0;
+  }
+  if (A === "five" && B === "one"){
+    var A = 5;
+    var B = 1;
+  }
+  if (A === "five" && B === "two"){
+    var A = 5;
+    var B = 2;
+  }
+  if (A === "five" && B === "three"){
+    var A = 5;
+    var B = 3;
+  }
+  if (A === "five" && B === "four"){
+    var A = 5;
+    var B = 4;
+  }
+  if (A === "five" && B === "five"){
+    var A = 5;
+    var B = 5;
+  }
+  if (A === "five" && B === "six"){
+    var A = 5;
+    var B = 6;
+  }
+  if (A === "five" && B === "seven"){
+    var A = 5;
+    var B = 7;
+  }
+  if (A === "five" && B ==="eight"){
+    var A = 5
+    var B = 8
+  }
+  if (A === "five" && B === "nine"){
+    var A = 5
+    var B = 9
+  }
+  return A + B
 }
 
 expect(toNumber("zero")).to.equal(0);
@@ -259,7 +350,7 @@ expect(add("five", "seven")).to.equal(12);
 expect(add("five", "eight")).to.equal(13);
 expect(add("five", "nine")).to.equal(14);
 
-console.log(add("zero", "one"))
+console.log(add("five", "seven"))
 
 console.log(1/9)
 
