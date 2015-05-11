@@ -437,6 +437,10 @@ function add(A, B){
   return A + B
 }
 
+function division(A, B){
+  if (B)
+}
+
 expect(toNumber("zero")).to.equal(0);
 expect(toNumber("one")).to.equal(1);
 expect(toNumber("two")).to.equal(2);
@@ -553,7 +557,17 @@ expect(add("nine", "nine")).to.equal(18);
 
 // NIGHTMARE MODE
 
-/* function plus(A, B){
+function toEnglish(word){
+  var numbers = [ "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" ];
+  var item, index = 0;
+  while ( index < number.length ){
+    item = numbers[index]
+  }
+
+}
+  console.log(toEnglish[0]);
+
+function plus(A, B){
   return (toNumber(A) + toNumber(B));
 }
 
@@ -568,23 +582,3 @@ function multiply(A, B){
 function divide(A, B){
   return (toNumber(A) / toNumber(B));
 }
-
-
-
-
-
-expect(plus).to.exist;
-expect(plus("zero", "zero")).to.equal(0);
-expect(plus("zero", "one")).to.equal(1);
-expect(plus("zero", "two")).to.equal(2);
-
-expect(minus).to.exist;
-expect(minus("four", "two")).to.equal(2);
-
-expect(multiply).to.exist;
-expect(multiply("five", "three")).to.equal(15);
-
-console.log(multiply("three", "four"))
-
-expect(divide).to.exist;
-expect(divide("five", "one").to.equal(5) */
