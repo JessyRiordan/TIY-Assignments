@@ -30,4 +30,4 @@ _.forEach(elements, function(element, index, elements){
     console.log(elements, index, element);
     element.parentElement.classList.toggle('cbp-ntopen');
   });
-});a
+});
