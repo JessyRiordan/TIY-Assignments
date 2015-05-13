@@ -2,7 +2,8 @@
 
 document.head.parentElement.className = "js";
 
-var elements = document.querySelectorAll('h3');
+var elements = document.querySelectorAll('.cbp-nttrigger');
+//var secondElements = document.querySelectorAll('h4');
 
 // elements[0].addEventListener('click', function(){
 // elements[0].parentElement.classList.toggle('cbp-ntopen');
@@ -19,15 +20,15 @@ var elements = document.querySelectorAll('h3');
 
 _.forEach(elements, function(element, index, elements){
   element.addEventListener('click', function(){
-    console.log(elements, index, element);
+    /// console.log(elements, index, element);
     element.parentElement.classList.toggle('cbp-ntopen');
   });
 });
 
-var elements = document.querySelectorAll('h4');
-_.forEach(elements, function(element, index, elements){
-  element.addEventListener('click', function(){
-    console.log(elements, index, element);
-    element.parentElement.classList.toggle('cbp-ntopen');
-  });
-});
+
+// _.forEach(secondElements, function(element, index, secondElements){
+  // element.addEventListener('click', function(){
+    // console.log(elements, index, element);
+    // element.parentElement.classList.toggle('cbp-ntopen');
+//   });
+// });
