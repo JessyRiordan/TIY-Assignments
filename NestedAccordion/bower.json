@@ -1,0 +1,20 @@
+{
+  "name": "NestedAccordion",
+  "version": "0.0.0",
+  "homepage": "https://github.com/JessyRiordan/TIY-Assignments",
+  "authors": [
+    "Jessy Riordan <jessy.riordan@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "CC0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.8.0"
+  }
+}
