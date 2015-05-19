@@ -18,3 +18,12 @@ h4 {
 h5 {
 	color: darkgray;
 }
+
+.js .cbp-ntcontent {
+	display: none;
+
+}
+
+.cbp-ntopen > .cbp-ntcontent {
+	display: block;
+}
