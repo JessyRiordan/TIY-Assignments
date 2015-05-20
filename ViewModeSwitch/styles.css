@@ -1,0 +1,18 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+h3 {
+  color: cornflowerblue;
+  font-size: 25pt;
+  text-transform: uppercase;
+}
+
+.cbp-vm-price {
+  color: lightgray;
+  font-size: 20pt;
+}
+
+.cbp-vm-details {
+  color: cornflowerblue;
+}

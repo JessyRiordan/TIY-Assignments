@@ -13,6 +13,7 @@ h3, h4 {
 h4 {
 	color: cornflowerblue;
 	font-size: 20pt;
+	text-transform: uppercase;
 	border-bottom: none;
 }
 
