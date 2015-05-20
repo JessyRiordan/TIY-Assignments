@@ -1,17 +1,19 @@
 body {
 	color: lightgray;
+	font-family: 'Lato', sans-serif;
 }
 
 h3, h4 {
 	color: cornflowerblue;
 	font-size: 40pt;
 	border-bottom: 1px solid lightgray;
-	margin-bottom: 30pt;
+	margin-bottom: 20pt;
 }
 
 h4 {
 	color: cornflowerblue;
 	font-size: 20pt;
+	text-transform: uppercase;
 	border-bottom: none;
 }
 
