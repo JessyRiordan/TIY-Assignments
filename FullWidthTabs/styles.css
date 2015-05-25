@@ -23,10 +23,16 @@ nav {
 }
 nav a {
 	font-family: Arial, sans-serif;
-	color:cornflowerblue;
+	color:lightgrey;
 	font-size: 20pt;
-	border: 0.25em solid cornflowerblue;
-	outline-width: thick;
+  text-decoration: none;
+	border: 0.1em solid lightgrey;
+  border-bottom: 0.2em solid white;
+	padding: 0.2em 1.6em 0.2em 1.6em
+}
+div section {
+  border: 0.1em solid cornflowerblue;
+  padding: 5em 2em 4em 2em
 }
 .mediabox {
   width: 33%;
@@ -37,4 +43,31 @@ nav a {
 }
 .mediabox img {
   width: 100%;
+}
+
+.tab-current {
+  border-left: 0.1em solid cornflowerblue;
+  border-right: 0.1em solid cornflowerblue;
+  font-family: Arial, sans-serif;
+	color:cornflowerblue;
+	font-size: 20pt;
+  border-top: 0.2em solid cornflowerblue;
+  border-bottom: 0.2em solid white;
+}
+
+.icon-shop span:before {
+  content: url('img/marker20.png');
+  filter: hue-rotate();
+}
+.icon-cup span:before {
+  content: url('img/glass35.png');
+}
+.icon-food span:before {
+  content: url('img/cutlery23.png');
+}
+.icon-lab span:before {
+  content: url('img/test tube8.png');
+}
+.icon-truck span:before {
+  content: url('img/logistics3.png');
 }
