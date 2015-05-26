@@ -16,21 +16,21 @@ body {
   clear: both;
 }
 nav ul li {
-	display: inline-block;
+  display: inline-block;
 }
 nav {
-	text-align: center;
+  text-align: center;
 }
 nav a {
-	font-family: Arial, sans-serif;
-	color:lightgrey;
-	font-size: 20pt;
+  font-family: Arial, sans-serif;
+  color: lightgrey;
+  font-size: 20pt;
   text-decoration: none;
-	border: 0.1em solid lightgrey;
+  border: 0.1em solid lightgrey;
   border-bottom: 0.1em solid white;
-	padding: 0.2em 1.6em 0.45em 1.6em;
+  padding: 0.2em 1.6em 0.45em 1.6em;
 }
-nav a:hover{
+nav a:hover {
   color: darkgrey;
 }
 div section {
@@ -47,29 +47,44 @@ div section {
 .mediabox img {
   width: 100%;
 }
-
 .tab-current {
   border-left: 0.1em solid cornflowerblue;
   border-right: 0.1em solid cornflowerblue;
   font-family: Arial, sans-serif;
-	color:cornflowerblue;
-	font-size: 20pt;
+  color: cornflowerblue;
+  font-size: 20pt;
   border-top: 0.2em solid cornflowerblue;
   border-bottom: 0.2em solid white;
 }
-
-.icon-shop span:before {
+.icon-shop nav ul li a {
   content: url('img/marker20.png');
 }
-.icon-cup span:before {
+.icon-cup {
   content: url('img/glass35.png');
 }
-.icon-food span:before {
+.icon-food {
   content: url('img/cutlery23.png');
 }
-.icon-lab span:before {
+.icon-lab {
   content: url('img/test tube8.png');
 }
-.icon-truck span:before {
+.icon-truck {
   content: url('img/logistics3.png');
+}
+@media screen and (max-width: 800px) {
+  .icon-shop > span {
+    display: none;
+  }
+  .icon-cup > span {
+    display: none;
+  }
+  .icon-food > span {
+    display: none;
+  }
+  .icon-lab > span {
+    display: none;
+  }
+  .icon-truck > span {
+    display: none;
+  }
 }
