@@ -27,11 +27,14 @@ nav a {
 	font-size: 20pt;
   text-decoration: none;
 	border: 0.1em solid lightgrey;
-  border-bottom: 0.2em solid white;
-	padding: 0.2em 1.6em 0.2em 1.6em
+  border-bottom: 0.1em solid white;
+	padding: 0.2em 1.6em 0.45em 1.6em;
+}
+nav a:hover{
+  color: darkgrey;
 }
 div section {
-  border: 0.1em solid cornflowerblue;
+  border-top: 0.1em solid cornflowerblue;
   padding: 5em 2em 4em 2em
 }
 .mediabox {
@@ -57,7 +60,6 @@ div section {
 
 .icon-shop span:before {
   content: url('img/marker20.png');
-  filter: hue-rotate();
 }
 .icon-cup span:before {
   content: url('img/glass35.png');

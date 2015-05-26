@@ -31,12 +31,6 @@
     $('a.icon-truck').addClass('tab-current');
   });
 
-  // $('.tabs nav ul li').on('click', function() {
-  //
-  //   var showPanel = $(this).attr();
-  //   alert(showPanel);
-  // });
-
 })(window);
 
 
