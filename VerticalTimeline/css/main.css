@@ -80,7 +80,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   .content {
+   .container {
      margin: 5em;
    }
    .timeline {
@@ -94,7 +94,7 @@ textarea {
    }
 
    .timeline li::before {
-     content: '\2708';
+     content: '\272e';
      position: absolute;
      left: 25%;
      font-size: 200%;
