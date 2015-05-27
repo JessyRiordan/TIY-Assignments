@@ -56,7 +56,7 @@ div section {
   border-top: 0.2em solid cornflowerblue;
   border-bottom: 0.2em solid white;
 }
-.icon-shop nav ul li a {
+.icon-shop::before {
   content: url('img/marker20.png');
 }
 .icon-cup {
@@ -71,7 +71,7 @@ div section {
 .icon-truck {
   content: url('img/logistics3.png');
 }
-@media screen and (max-width: 800px) {
+/*@media screen and (max-width: 800px) {
   .icon-shop > span {
     display: none;
   }
@@ -87,4 +87,4 @@ div section {
   .icon-truck > span {
     display: none;
   }
-}
+}*/

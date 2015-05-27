@@ -1,10 +1,15 @@
 (function(window) {
-  $('li').click(function() {
-    $('li').removeClass('tab-current');
+  $('#tabs li').click(function() {
+    $(this).siblings().removeClass('tab-current');
+
     $(this).addClass("tab-current");
-    $('section').removeClass('content-current');
-    $($(this).children('a').attr('href')).addClass('content-current');
-  })
+
+    var panelId = $(this).children('a').attr('href');
+    var $panel = $(panelId);
+
+    $panel.addClass('content-current')
+      .siblings().removeClass('content-current');
+  });
 })(window);
 
 
