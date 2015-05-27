@@ -1,0 +1,18 @@
+{
+  "name": "MultiColumnForm",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JessyRiordan/TIY-Assignments/"
+  },
+  "author": "Jessy Riordan <jessy.riordan@gmail.com>",
+  "license": "CC0"
+}
