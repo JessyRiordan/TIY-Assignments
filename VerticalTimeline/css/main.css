@@ -98,8 +98,10 @@ textarea {
      position: absolute;
      left: 25%;
      font-size: 200%;
-     border: 0.5em solid #6CBFEE;
-     border-radius: 100%;
+     text-align: center;
+     width: 2.2ex; line-height: 2.2ex;
+     border: 0.4em solid #6CBFEE;
+     border-radius: 50%;
      background-color: #0393CE;
    }
 
@@ -115,8 +117,34 @@ textarea {
      margin-right: 24%;
      text-align: right;
    }
+
+   .timeline small {
+     color: lightgray;
+     font-size: 12pt;
+   }
+
+   .timeline big {
+     color: #6CBFEE;
+     font-size: 25pt;
+   }
+
+   .timeline :nth-child(odd) time big {
+     color: #0393CE
+   }
+
    .timeline time > * {
      display: block;
+   }
+
+   .timeline time::after {
+     content: " ";
+     position: absolute;
+     left: 27.5%;
+     width: 1ex;
+     background-color: #6CBFEE;
+     top: 0;
+     bottom: 0;
+     z-index: -1;
    }
 
    .timeline article {
@@ -137,19 +165,6 @@ textarea {
      border-bottom: 1px solid white;
    }
 
-   .timeline small {
-     color: lightgray;
-     font-size: 12pt;
-   }
-
-   .timeline big {
-     color: #6CBFEE;
-     font-size: 25pt;
-   }
-
-   .timeline :nth-child(odd) big {
-     color: #0393CE
-   }
 
 /* ==========================================================================
    Helper classes
