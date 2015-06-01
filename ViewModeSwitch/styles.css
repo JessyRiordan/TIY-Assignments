@@ -3,9 +3,18 @@ body {
 }
 
 h3 {
-  color: cornflowerblue;
+  color: deeppink;
   font-size: 25pt;
   text-transform: uppercase;
+}
+
+.main {
+	border: 2.5px solid deeppink;
+	margin: 1em;
+}
+
+.cbp-vm-options {
+	text-align: right;
 }
 
 .cbp-vm-price {
@@ -14,5 +23,60 @@ h3 {
 }
 
 .cbp-vm-details {
-  color: cornflowerblue;
+  color: deeppink;
 }
+
+.cbp-vm-icon {
+	color: deeppink;
+	text-decoration: none;
+}
+
+.cbp-vm-view-grid li {
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+/*Work from class*/
+
+/*#cbp-vm {
+     border-style: solid;
+     border-color: cornflowerblue;
+-    padding-top: 5em;
+-    padding-left: 5em;
+ }
+
+-li {
+-    list-style: none;
++.cbp-vm-switcher.cbp-vm-view-grid li {
++    display: inline-block;
++    width: 30%;
++}
++
++.cbp-vm-switcher.cbp-vm-view-list li {
++    display: block;
++}
++.cbp-vm-switcher.cbp-vm-view-list li > * {
++    display: inline-block;
++}
++.cbp-vm-switcher.cbp-vm-view-list li .cbp-vm-image {
++    width: 25%; max-width: 200px;
++
++}
++.cbp-vm-switcher.cbp-vm-view-list li .cbp-vm-title {
++
+ }
+
+ .cbp-vm-options {
++    text-align: right;
++}
++
++.cbp-vm-options .cbp-vm-icon {
+     color: cornflowerblue;
+-    text-decoration-line: underline;
++    text-decoration: none;
++    width: 5em; height: 5em;
++    display: inline-block;
++    background-color: lightblue;
+ }*/
