@@ -3,13 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>MultiColumnForm</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -19,22 +15,73 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+<!--Help with code from https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/How_to_structure_an_HTML_form-->
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <form>
+          <label for=firstname>
+            <span>FIRST NAME</span>
+            <input placeholder=Jane>
+          </label>
+          <label for=lastname>
+            <span>LAST NAME</span>
+            <input placeholder=Doe>
+          </label>
+          <label for=email>
+            <span>EMAIL ADDRESS</span>
+            <input placeholder=jane@doe.com>
+          </label>
+          <label for=country>
+            <span>COUNTRY</span>
+            <select>
+              <option>Choose a Country</option>
+              <option>USA</option>
+              <option>France</option>
+              <option>Canada</option>
+            </select>
+          </label>
+          <label for=biography>
+            <span>BIOGRAPHY</span>
+            <input>
+          </label>
+          <label for=phone>
+            <span>PHONE NUMBER</span>
+            <input placeholder=555-555-5555>
+          </label>
+          <label for=affiliations>
+            <span>AFFILIATIONS</span>
+            <input>
+          </label>
+          <label for=occupation>
+            <select>
+              <span>OCCUPATION</span>
+              <option>Choose an Occupation</option>
+              <option>Web Developer</option>
+              <option>Web Designer</option>
+              <option>Student</option>
+            </select>
+          </label>
+          <label for=catName>
+            <span>CAT'S NAME</span>
+            <input placeholder=Kitty>
+          </label>
+          <label for=favGadget>
+            <span>FAVORITE GADGET</span>
+            <input placeholder=Annoy-a-tron>
+          </label>
+          <label for=talent>
+            <select>
+              <span>TYPE OF TALENT</span>
+              <option>Chooose a talent</option>
+              <option>Ninja science</option>
+              <option>Sumo power</option>
+              <option>Samurai precision</option>
+            </select>
+          </label>
+          <label for=favDrink>
+            <span>FAVORITE DRINK</span>
+            <input placeholder=Coffee>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
+        </form>
+
     </body>
 </html>
