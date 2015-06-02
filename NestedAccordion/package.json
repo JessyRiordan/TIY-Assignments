@@ -1,0 +1,19 @@
+{
+  "name": "NestedAccordion",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files='index.html, js/*.js, css/*.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JessyRiordan/TIY-Assignments"
+  },
+  "author": "Jessy Riordan <jessy.riordan@gmail.com>",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/JessyRiordan/TIY-Assignments/issues"
+  },
+  "homepage": "https://github.com/JessyRiordan/TIY-Assignments"
+}
