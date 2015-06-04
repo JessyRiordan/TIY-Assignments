@@ -98,11 +98,25 @@ textarea {
 body {
   background-color: hotpink;
   font-family: fantasy;
+  text-align: center;
+}
+
+div.columnOne,
+div.columnTwo,
+div.columnThree {
+  width: 30%;
+  display: inline-block;
+}
+
+label {
+  display: block;
+  text-align: left;
 }
 
 span {
-  font-family: fantasy;
+  display: block;
   color: white;
+  text-align: center;
 }
 
 /*Help with formatting input fields https://css-tricks.com/styling-texty-inputs-only/*/
@@ -116,8 +130,10 @@ input {
 }
 
 select {
+  display: block;
   background: deeppink;
   color: white;
+  text-align: center;
 }
 
 ::-webkit-input-placeholder {
@@ -132,17 +148,6 @@ button {
   border-radius: 15%;
 }
 
-div.columnOne,
-div.columnTwo,
-div.columnThree {
-  width: 30%;
-  display: inline-block;
-}
-
-label {
-  display:inline-block;
-  text-align: center;
-}
 
 
 
