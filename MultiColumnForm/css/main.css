@@ -132,7 +132,17 @@ button {
   border-radius: 15%;
 }
 
+div.columnOne,
+div.columnTwo,
+div.columnThree {
+  width: 30%;
+  display: inline-block;
+}
 
+label {
+  display:inline-block;
+  text-align: center;
+}
 
 
 
